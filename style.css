@@ -1,0 +1,122 @@
+body {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/premium_photo-1663962390324-a15e60ac6392.avif);
+    height: 100vh;
+    width: 35vw;
+    background-position: center;
+}
+
+.logo-text {
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 20vh;
+    padding: 8px 0;
+    gap: 1em;
+}
+
+.right {
+    display: flex;
+}
+
+.container {
+    display: flex;
+}
+
+.top {
+    flex-direction: column;
+    padding-top: 15vh;
+}
+
+.top > div {
+    font-size: 1.5em;
+    margin-left: 3rem;
+}
+
+.top > div:last-child {
+    padding: 2em 0 4em 0;
+}
+
+.middle {
+    background-color: aliceblue;
+    flex-wrap: wrap;
+    padding-left: 3rem;
+    box-shadow: 0px 11px 8px #888, 0px -2px 2px #888;;
+}
+
+.form-text {
+    font-size: 1.5em;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+input, label{
+    display: block;
+    width: 350px;
+}
+
+ol {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1em;
+    width: 38vw;
+    padding-bottom: 1.5em;
+}
+
+label {
+    padding: 0.3em 0;
+    color: grey;
+    font-size: 0.8rem;
+}
+
+.bottom {
+    flex-direction: column;
+    padding-left: 3rem;
+    margin-top: 1rem;
+    font-size: 1.2em;
+}
+
+.btn {
+    margin: 2rem 0;
+    height: 3em;
+    width: 10em;
+    border-radius: 1em;
+    background-color: whitesmoke;
+    font-size: 1em;
+    box-shadow: none;
+    border: 1px solid red;
+}
+
+a {
+    color: red;
+}
+
+.credits {
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    top: 85vh;
+}
